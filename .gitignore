@@ -1,0 +1,58 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+ 
+# secrets and keys
+# common private key and certificate formats
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.jks
+*.keystore
+ 
+# SSH keys
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+.ssh/
+ 
+# cloud creds/configs
+.aws/
+.gcloud/
+.azure/
+ 
+# tool-specific secrets
+.npmrc
+.terraform/
+ 
+# mobile/app service credentials (if present)
+google-services.json
+GoogleService-Info.plist
